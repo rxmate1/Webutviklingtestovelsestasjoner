@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+header{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction:column ;
+    padding: 1rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+nav ul li a{
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+
+}
+
+main section{
+    box-shadow: 2px 2px 15px;
+}
+
+
+
+#grid-header{
+    display: grid;
+    grid-template-rows: 1/2;
+    grid-template-columns: 2/3;
+}
+
